@@ -1,3 +1,49 @@
 body {
-	font-size: 23px;
+	font-size: 1em;
+	margin-top: 8px;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+}
+
+span {
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-left: 3%;
+}
+
+.fondoGris {
+	background-color: #c4c4c4;
+}
+
+nav {
+	width: 100%;
+	float: left;
+}
+
+#menuHeader {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+	float: left;
+}
+
+#menuHeader menuitem{
+	color: white;
+	text-align: center;
+	border-right: 1px solid white;
+	float: left;
+	padding: 9px;
+}
+
+article {
+	padding-top: 50px;
+	padding-left: 4%;
+}
+
+h1 {
+	font-size: 1.5em;
 }
